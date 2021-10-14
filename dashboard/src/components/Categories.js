@@ -26,7 +26,7 @@ class Categories extends Component{
     }
     
     checkApiData(){
-        this.apiCall('http://localhost:3000/v1/products/', this.displayData);
+        this.apiCall('https://modasemilse.herokuapp.com/v1/products/', this.displayData);
     }
     
     displayData = (data) => {

@@ -24,7 +24,8 @@ class formulario extends Component{
     }
 
     login(){
-        fetch("http://localhost:3000/v1/users/login",{
+        console.log(this.state);
+        fetch("https://modasemilse.herokuapp.com/v1/users/login",{
             method : 'POST',
             body : JSON.stringify(this.state),
             headers:{'Content-Type':'application/json'},

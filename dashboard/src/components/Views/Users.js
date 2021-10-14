@@ -26,7 +26,7 @@ class Products extends React.Component {
     }
 
     checkApiData(){
-        this.apiCall('http://localhost:3000/v1/users/', this.displayData);
+        this.apiCall('https://modasemilse.herokuapp.com/v1/users/', this.displayData);
     }
 
     displayData = (data) => {
